@@ -4,11 +4,13 @@ public class Basketball extends Player{
 	private int rebounds;
 	private int steals;
 
-	public Basketball (String name, int age, double avrPTS, int rebounds, int steals){
+	public Basketball (String name, int age){
 		super(name, age);
-		this.avrPTS=avrPTS;
-		this.rebounds=rebounds;
-		this.steals=steals;
+		avrPTS=0;
+		rebounds=0;
+		steals=0;
 	}
-
+	public String toString() {
+		return  super.toString() + avrPTS + rebounds + steals ;    
+	}
 }

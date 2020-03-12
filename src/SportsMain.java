@@ -3,6 +3,9 @@ public class SportsMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		  
+	Player a = new Basketball("Lary ", 28);
+	System.out.println(a.toString());	
 
 	}  
 
